@@ -14,6 +14,7 @@ public class ChartAddRequest implements Serializable {
     /**
      * 图表名称
      */
+
     private String name;
 
 
