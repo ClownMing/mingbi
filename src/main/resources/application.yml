@@ -26,6 +26,7 @@ spring:
     host: 192.168.29.130
     port: 6379
     timeout: 5000
+
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
 #  elasticsearch:
@@ -37,6 +38,13 @@ spring:
     multipart:
       # 大小限制
       max-file-size: 10MB
+
+
+  rabbitmq:
+    host: 192.168.29.130
+    username: dym
+    password: 775821
+    port: 5672
 server:
   address: 0.0.0.0
   port: 8110
